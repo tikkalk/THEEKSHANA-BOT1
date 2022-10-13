@@ -75,10 +75,10 @@ global.menumoji ="💖"
 global.menuimg = "https://telegra.ph/file/be32930f9d58ef4c94609.jpg" //ur alive img link [https://i.ibb.co]
 global.alive = "https://raw.githubusercontent.com/Nipuna-apps/Blue-Lion-Bot-V2/main/LioneMedia/video/Lione-bot.mp4" //ur alive video or image link [github.com]
 //Bot theme media
-global.thum = fs.readFileSync(".https://telegra.ph/file/be32930f9d58ef4c94609.jpg") //ur thumb pic
-global.log0 = fs.readFileSync(".https://telegra.ph/file/be32930f9d58ef4c94609.jpg") //ur logo pic
-global.err4r = fs.readFileSync(".https://telegra.ph/file/be32930f9d58ef4c94609.jpg") //ur error pic
-global.thumb = fs.readFileSync(".https://telegra.ph/file/be32930f9d58ef4c94609.jpg") //ur thumb pic
+global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
+global.log0 = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur logo pic
+global.err4r = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur error pic
+global.thumb = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
 
 //damtabase
 global.premium = ['94741597760'] //ur premium numbers
