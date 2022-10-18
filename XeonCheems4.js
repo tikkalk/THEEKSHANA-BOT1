@@ -575,9 +575,9 @@ XeonBotInc.sendReadReceipt(from, m.sender, [m.key.id])}
         }
 
 	// AntiLinkgc
-if (AntiLinkgc) {
-linkgce = await XeonBotInc.groupInviteCode(from)
-if (budy.includes(`https://chat.whatsapp.com/${linkgce}`)) {
+if (AntiLink) {
+linkgc = await XeonBotInc.groupInviteCode(from)
+if (budy.includes(`https://chat.whatsapp.com/${linkgc}`)) {
 reply(`\`\`\`「 Group Link Detected 」\`\`\`\n\nYou won't be kicked by a bot because what you send is a link to this group`)
 } else if (isUrl(m.text)) {
 bvl = `\`\`\`「 Group Link Detected 」\`\`\`\n\nAdmin has sent a link, admin is free to post any link`
